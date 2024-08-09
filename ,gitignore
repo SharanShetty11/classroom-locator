@@ -5,6 +5,8 @@ logs
 # Node modules 
 node_modules/
 
+.vscode
+
 # Dependency directories
 /vendor/
 /dist/
