@@ -1,0 +1,25 @@
+ Logs
+logs
+*.log
+
+# Node modules 
+node_modules/
+
+# Dependency directories
+/vendor/
+/dist/
+
+# Environment variables
+.env
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
