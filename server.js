@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
     host: 'sql12.freemysqlhosting.net',
     user: 'sql12725005',
     password: '69mtMQaSa5',
-    database: 'classroom_locator',
+    database: 'sql12725005',
     port: 3306 // Ensure the port number is specified
 });
 
