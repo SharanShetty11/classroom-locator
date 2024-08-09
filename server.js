@@ -7,11 +7,18 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Create a MySQL connection
+// const connection = mysql.createConnection({
+//     host: 'localhost',
+//     user: 'root',
+//     password: 'Sharan@11',
+//     database: 'classroom_locator'
+// });
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Sharan@11',
-    database: 'classroom_locator'
+    host: 'sql12.freemysqlhosting.net',
+    user: 'sql12725005',
+    password: '69mtMQaSa5',
+    database: 'sql12725005',
+    port: 3306 // Ensure the port number is specified
 });
 
 connection.connect((err) => {
