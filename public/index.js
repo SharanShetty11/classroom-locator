@@ -9,8 +9,8 @@ form.addEventListener('submit', async (e) => {
 
         if (!text) {
 
-            let empty = document.getElementById('search-results')
-            empty.innerHTML = '<br><h6>Enter some text</h6>'
+            const empty = document.getElementById('search-results')
+            empty.innerHTML = 'Enter some text'
             setTimeout(() => {
                 empty.innerHTML = ''
             }, 2000);
@@ -19,7 +19,10 @@ form.addEventListener('submit', async (e) => {
         }
 
 
-        const response = await fetch('http://localhost:3000/search', {
+        // const response = await fetch('http://localhost:3000/search', {   //for localhost - server.js
+
+        const response = await fetch('https://classroom-locator.onrender.com/search', {
+
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
