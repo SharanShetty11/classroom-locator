@@ -10,7 +10,7 @@ The Classroom Locator is a dynamic web application designed to assist students, 
 - **Data Management**: The application utilizes a well-structured database schema to manage and store classroom information, enabling quick and reliable data retrieval.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, Bootstrap, JavaScript, Axios
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
 
