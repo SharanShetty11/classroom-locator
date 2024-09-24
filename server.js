@@ -15,9 +15,9 @@ const port = process.env.PORT || 3000;
 // });
 const connection = mysql.createConnection({
     host: 'sql12.freemysqlhosting.net',
-    user: 'sql12725005',
-    password: '69mtMQaSa5',
-    database: 'sql12725005',
+    user: 'sql12733086',
+    password : 'axZc5Bgl6X',
+    database: 'sql12733086',
     port: 3306 // Ensure the port number is specified
 });
 
